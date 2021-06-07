@@ -1,0 +1,13 @@
+spring:
+  jackson:
+    deserialization:
+      read-date-timestamps-as-nanoseconds: false
+
+logging:
+  level:
+    com:
+      crypto:
+        candles: INFO
+
+api:
+  url: https://uat-api.3ona.co/v2
